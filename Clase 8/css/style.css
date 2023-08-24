@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img{
+    width: 130px;
+}
+
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-weight: 900;
+}
+
+header li{
+    margin: 0 10px;
+}
+
+/*ENLACES SIN VISITAR*/
+.inicio a:link{
+    background-color: aliceblue;
+    color: black;
+}
+/*ENLACES VISITADOS*/
+.inicio a:visited{
+    background-color: rgb(244, 215, 215);
+    color: white;
+}
+
+.inicio a:hover{
+    font-style: italic;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer:hover{
+    background-color: rgb (231, 177, 122);
+    color: black;
+    font-size: 25px;
+}
